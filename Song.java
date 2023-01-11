@@ -28,5 +28,16 @@ public class Song{
     public String getArtist(){
         return artist;
     }
+    public String toString(){
+        String song = name + " by " + artist;
+        return song;
+    }
+    public String durationToString(){
+        String duration = min + ":" + sec;
+        return duration;
+    }
+    public void changeStatus(){
+        isLiked = !isLiked;
+    }
 
 }
