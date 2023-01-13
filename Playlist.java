@@ -31,8 +31,33 @@ public class Playlist {
 
             }
         }
+
+
         
+        
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+    public void showSongs(){
+        for(int i = 0; i < playlist.size(); i++){
+            System.out.println(playlist.get(i).toString());
+        }
 
 
     }
     
+}
