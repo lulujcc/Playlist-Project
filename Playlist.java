@@ -31,17 +31,42 @@ public class Playlist {
 
             }
         }
-        public void removeLikedSongs(){
-            for(int i = 0; i < playlist.size(); i++){
-                Song s = playlist.get(i);
-                if(s.findStatus() == true){
-                    playlist.remove(s);
-                }
-                i--;
-            }
-        }
+        
+
+        
         
 
 
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+    public void showSongs(){
+        for(int i = 0; i < playlist.size(); i++){
+            System.out.println(playlist.get(i).toString());
+        }
+
+
+    }
+    public void removeLikedSongs(){
+        for(int i = 0; i < playlist.size(); i++){
+            Song s = playlist.get(i);
+            if(s.findStatus() == true){
+                playlist.remove(s);
+            }
+            i--;
+        }
     }
     
+}
