@@ -1,4 +1,4 @@
-//@authors Lucia Colwell and Vivian Heller
+//@authors Lucia Colwell, Vivian Heller, Sofia Segal
 //@date 1/11/22
 public class Song{
     private boolean isLiked;

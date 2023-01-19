@@ -34,16 +34,6 @@ public class Playlist {
         
 
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         public void totalDuration(){
             double count = 0;
             for(int i = 0; i < playlist.size(); i++){
@@ -51,20 +41,6 @@ public class Playlist {
             }
             System.out.println("Playlist duration is " + count/60 + "minutes long");
         }
-
-
-        
-
-
-    
-    
-
-
-
-
-
-
-
 
 
     public void showSongs(){

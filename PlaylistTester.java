@@ -9,6 +9,10 @@ public class PlaylistTester {
         System.out.println("Adding \"Bad Romance\" by LADY GAGA...");
         Song gaga = new Song("Bad Romance", "LADY GAGA", true, 4, 53);
         set.addSong(gaga);
+
+        System.out.println("Adding \"Doo Wop (That Thing)\" by Ms Lauryn Hill...");
+        Song dooWop = new Song("Doo Wop (That Thing)", "Ms Lauryn Hill", true, 5, 20);
+        set.addSong(dooWop);
         
         
 
