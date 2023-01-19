@@ -46,10 +46,10 @@ public class Playlist {
         
         public void totalDuration(){
             double count = 0;
-            for(int i = 0; i < playlist.getTotalSeconds(); i++){
-                count += playlist.getTotalSeconds(playlist.get(i));
-                System.out.println("Playlist duration is " + count % 60 + "minutes long");
+            for(int i = 0; i < playlist.size(); i++){
+                count += playlist.get(i).getTotalSeconds();
             }
+            System.out.println("Playlist duration is " + count/60 + "minutes long");
         }
 
 
