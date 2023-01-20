@@ -50,6 +50,9 @@ public class Playlist {
 
 
     }
+    public void removeLike(int position){
+        playlist.get(i).changeStatus();
+    }
     public void removeLikedSongs(){
         for(int i = 0; i < playlist.size(); i++){
             Song s = playlist.get(i);
