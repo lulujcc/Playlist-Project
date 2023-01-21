@@ -45,7 +45,7 @@ public class PlaylistTester {
         set.removeLikedSongs();
         System.out.println("Now let's see what songs we have left...");
         set.showSongs();
-        System.out.println("This is kind of a sad playlist, but that's okay!");
+        System.out.println("This is kind of a sad playlist now, but that's okay!");
         
 
         
